@@ -5,10 +5,10 @@
 * 자바스크립트는 프로토타입을 기반으로 상속을 구현하여 불필요한 중복을 제거한다.
 
 ##### 메서드 중복
-![생성자 함수](/home/zerone/Pictures/Screenshots/1.png)  
+![생성자 함수](https://user-images.githubusercontent.com/67082984/216002081-33027069-d05d-4bb0-891d-1338438d9f61.png)
 
 ##### 상속으로 메서드 중복 제거
-![생성자 함수 상속](/home/zerone/Pictures/Screenshots/2.png)
+![생성자 함수 상속](https://user-images.githubusercontent.com/67082984/216002142-7bac3216-6b75-4523-99e9-5b374d72d2bc.png)
 
 ```javascript
 // prototype 상속 예제
@@ -43,7 +43,7 @@ obj.valueOf();
 
 모든 객체는 하나의 프로토타입을 갖고 있고, 모든 프로토타입은 생성자 함수와 연결되어 있다.
 ##### 객체와 프로토타입과 생성자 함수는 서로 연결되어 있다
-![연결 구조](/home/zerone/Pictures/Screenshots/3.png)
+![연결 구조](https://user-images.githubusercontent.com/67082984/216002225-f34177f5-7e08-4c45-b2b4-087251a8a928.png)
 
 **\[\[Prototype\]\]** 내부 슬롯에는 직접 접근할 수 없지만, **\_\_proto\_\_** 접근자 프로퍼티를 통해 자신의 프로토타입에 간접적으로 접근할 수 있다.  
 하지만 **\_\_proto\_\_** 접근자 프로퍼티를 코드 내에서 직접 사용하는 것은 권하지 않는다고 한다.  
@@ -93,7 +93,7 @@ function Person(name) {
 이를 **프로토타입 체인**이라 한다.
 
 ##### 프로토타입 체인
-![프로토타입 체인](/home/zerone/Pictures/Screenshots/4.png)
+![프로토타입 체인](https://user-images.githubusercontent.com/67082984/216002299-7370812b-7990-4cb2-a561-ca8be146a742.png)
 ```javascript
 function Person(name) {
 	this.name = name;
