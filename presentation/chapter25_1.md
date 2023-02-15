@@ -45,7 +45,7 @@ me.sayHi();			// Hi Lee
 Person.sayHello();	// Hello!
 ```
 
-![클래스 & 생성자 함수 정의](4.png)
+![클래스 & 생성자 함수 정의](https://user-images.githubusercontent.com/67082984/218999069-8b42a6f8-0134-48c1-a6e7-513c470fed0a.png)
 
 ## 클래스 호이스팅
 클래스는 함수로 평가된다.
@@ -108,7 +108,7 @@ console.log(me instanceof Person);		// true
 console.log(me.constructor === Person);	// true
 ```
 
-![클래스 프로토타입 체인](5.png)
+![클래스 프로토타입 체인](https://user-images.githubusercontent.com/67082984/218999127-0d0e1186-3b67-48ff-9a0d-1edcc4d9b476.png)
 
 ### 정적 메서드
 정적 메서드는 인스턴스를 생성하지 않아도 호출할 수 있는 메서드를 말한다.  
@@ -131,7 +131,7 @@ class Person {
 Person.sayHi();	// Hi!
 ```
 
-![정적 메서드](6.png)
+![정적 메서드](https://user-images.githubusercontent.com/67082984/218999182-ff575fb5-a14f-48bf-8b5a-a7df7e78e050.png)
 
 ##### 정적 메서드와 프로토타입 메서드 차이
 1. 정적 메서드와 프로토타입 메서드는 자신이 속해 있는 프로토타입 체인이 다르다.
