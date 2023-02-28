@@ -35,8 +35,7 @@ $input.oninput = debounce(e => {
 	// code
 }, 500);
 ```
-
-![debounce](1.png)
+![debounce](https://user-images.githubusercontent.com/67082984/221772795-5e197e4c-12ad-48e6-bbb0-43d84a3fa766.png)
 
 실무에서는 Underscore의 debounce 함수나 Lodash의 debounce 함수를 사용하는 것을 권장한다.
 
@@ -64,6 +63,6 @@ $input.oninput = throttle(e => {
 }, 500);
 ```
 
-![debounce](2.png)
+![throttle](https://user-images.githubusercontent.com/67082984/221772839-83e0396e-0afd-4c4d-bdce-d44caab00295.png)
 
 실무에서는 Underscore의 throttle 함수나 Lodash의 throttle 함수를 사용하는 것을 권장한다.
